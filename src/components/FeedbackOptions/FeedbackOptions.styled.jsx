@@ -38,6 +38,8 @@ export const FeedBackButton = styled.button`
         return '#ee9f27';
       case 'bad':
         return '#ff5545';
+      default:
+        return 'grey';
     }
   }};
 `;
